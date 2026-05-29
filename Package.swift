@@ -8,14 +8,14 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "SharedKit",
+            name: "shared",
             targets: ["shared"]
         ),
     ],
     targets: [
         .binaryTarget(
             name: "shared",
-            url: "https://github.com/Vivino/vivino-shared-spm-v2/releases/download/1.2.1/sharedKit.xcframework.zip",
+            url: "https://github.com/Vivino/vivino-shared-spm-v2/releases/download/1.2.2/sharedKit.xcframework.zip",
             checksum: "ae5098828dfc7f5178eb51fe7ec16f02e515dac4e3635738d1a16f77239c0221"
         ),
     ]
