@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "SharedKit",
+    name: "shared",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "SharedKit",
+            name: "shared",
             targets: ["shared"]
         ),
     ],
