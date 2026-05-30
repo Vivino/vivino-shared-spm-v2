@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "shared",
-            url: "https://github.com/Vivino/vivino-shared-spm-v2/releases/download/1.2.3/sharedKit.xcframework.zip",
-            checksum: "d66a6d16436cab8eca58a326440de09d72b2e9dff07f115d11c0c59798cb7696"
+            url: "https://github.com/Vivino/vivino-shared-spm-v2/releases/download/1.2.4/sharedKit.xcframework.zip",
+            checksum: "17e575a11f4ce641b254b05438201f57a2552dfa2350c4cff52fc39cd8c14762"
         ),
     ]
 )
