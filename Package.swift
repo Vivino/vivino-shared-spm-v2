@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SharedKit",
-            url: "https://artifactory.vivino.com/artifactory/virtual/ios/kmp-shared/1.0.0/sharedKit.xcframework.zip",
+            url: "https://artifactory.vivino.com/artifactory/virtual/ios/kmp-shared/2026.17.1-SNAPSHOT.31/sharedKit.xcframework.zip",
             checksum: "6f471aaa5df38d4d04a332d06ddd8d221267967cf3c24888e0e6f368453f10ac"
         ),
     ]
