@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "shared",
+    name: "SharedKit",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "shared",
-            targets: ["shared"]
+            name: "SharedKit",
+            targets: ["SharedKit"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "shared",
-            url: "https://github.com/Vivino/vivino-shared-spm-v2/releases/download/1.2.4/sharedKit.xcframework.zip",
-            checksum: "17e575a11f4ce641b254b05438201f57a2552dfa2350c4cff52fc39cd8c14762"
+            name: "SharedKit",
+            url: "https://artifactory.vivino.com/artifactory/virtual/ios/kmp-shared/1.0.0/sharedKit.xcframework.zip",
+            checksum: "6f471aaa5df38d4d04a332d06ddd8d221267967cf3c24888e0e6f368453f10ac"
         ),
     ]
 )
